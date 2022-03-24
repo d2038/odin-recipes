@@ -1,5 +1,19 @@
 body {
     background-color: hsl(39, 79%, 58%);
     color: hsl(209, 64%, 25%);
-    font-size: large;
+    font-size: large;    
+    text-align: center;
+}
+
+ol,
+ul {
+    padding-left: 0%;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px 0;
 }
