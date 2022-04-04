@@ -1,19 +1,32 @@
-body {
-    background-color: hsl(39, 79%, 58%);
-    color: hsl(209, 64%, 25%);
-    font-size: large;    
-    text-align: center;
+.card {
+  background-color: hsl(39, 79%, 58%);
+  color: hsl(209, 64%, 25%);
+  font-size: large;
+  text-align: center;
+  border: 3px solid hsl(209, 64%, 25%);
+  border-radius: 30px;
+  margin: 20px 200px;
+  padding: 0 40px 40px;
 }
 
 ol,
 ul {
-    padding-left: 0%;
+  padding-left: 0%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 ol {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 li {
-    padding: 5px 0;
+  padding: 5px 0;
+}
+
+img {
+  border: 2px solid hsl(209, 64%, 25%);
+  border-radius: 20px;
 }
